@@ -1,0 +1,27 @@
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Tetris"
+        android:id="@+id/textView1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        android:textSize="56dp" />
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="jp.ac.it_college.std.s13009.androidchallenge.MainActivity$PlaceholderFragment"
+        android:id="@+id/start_fragment"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
